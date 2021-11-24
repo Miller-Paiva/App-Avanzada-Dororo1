@@ -1,0 +1,39 @@
+header{
+    background-color: rgba(0,0,0,0);
+    width: 60%;
+    height: auto;
+    margin: auto;
+	padding: 15px 0px 15px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;   
+}
+header div.headeri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div.headerd{
+    width: 100%;
+    
+}
+
+header div h2{
+    font-weight: 800;
+    color: #FFFFFF;
+    padding-top: 7px;
+}
+header div nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    
+
+}
+header div ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

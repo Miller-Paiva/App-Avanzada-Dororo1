@@ -1,0 +1,29 @@
+<section>
+    <div class="imagenformulario">
+        <div>
+            <h2>AGREGAR
+            <br>OBJETOS<br>DODORO</h2>
+        </div>
+        <form (ngSubmit)="create()" >
+            <div class="campos">
+                <label>Objeto</label>
+                <input type="text" name="producto"  [(ngModel)]="dororos.producto" />
+            </div>
+            <div class="campos">
+                <label>Descripción</label>
+                <input type="text" name="descripcion" [(ngModel)]="dororos.descripcion" />
+            </div>
+            <div class="campos">
+                <label > Imagen Objeto</label>
+                <input type="text" name="imagendororo" [(ngModel)]="dororos.imagendororo"/>
+            </div>
+            <div class="campos">
+                <label>Origen</label>
+                <input type="text" name="origen" [(ngModel)]="dororos.origen"/>
+                <button  >Enviar</button>
+            </div>
+            
+            
+        </form>
+    </div>
+</section>

@@ -1,0 +1,9 @@
+.Demonios{
+    width: 90%;
+	max-width: 100%;
+	margin: auto;
+	padding: auto;
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 25px;
+}

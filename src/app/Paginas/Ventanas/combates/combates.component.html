@@ -1,0 +1,31 @@
+<section>
+    <div class="imagenformulario">
+        <div>
+            <h2>AGREGAR
+            <br>lISTA<br>COMBATE</h2>
+        </div>
+        <form (ngSubmit)="create1()" >
+            <div class="campos">
+                <label>Lugar de Combate</label>
+                <input type="text" name="lugar_Combate"  [(ngModel)]="combatex.lugar_Combate" />
+            </div>
+            <div class="campos">
+                <label>Demonio Combatiente</label>
+                <input type="text" name="demonio_Combate" [(ngModel)]="combatex.demonio_Combate" />
+            </div>
+            
+            <div class="campos">
+                <label>Resultado Combate</label>
+                <input type="text" name="ganador" [(ngModel)]="combatex.ganador"/>
+                <button (click)="refresh()" >Enviar</button>
+            </div>
+            
+            
+        </form>
+    </div>
+    
+</section>
+<section class="Combates">
+    <app-combate [combate]="combate" *ngFor="let combate of combates"></app-combate>
+    
+</section>

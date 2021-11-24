@@ -1,0 +1,77 @@
+.Combates{
+    width: 90%;
+	max-width: 100%;
+	margin: auto;
+	padding: auto;
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 25px;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.imagenformulario{
+    background-image: url("https://cdn.alfabetajuega.com/wp-content/uploads/2021/07/Donde-ver-online-Dororo-Mejores-opciones-gratis-y-de-pago.jpg");
+    background-size: cover;
+    width: 70%;
+    display: flex;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+section div.imagenformulario div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section div.imagenformulario div h2{
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 800;
+    text-align-last: center;
+}
+section div.imagenformulario form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0 50px 0;
+    border-radius: 0 40px 40px 0;
+}
+section div.imagenformulario form div.campos{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section div.imagenformulario form div.campos label{
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+section div.imagenformulario form div.campos input{
+    width: 70%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section div.imagenformulario form div.campos button{
+    width: 50%;
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
